@@ -9,7 +9,7 @@ const homepageA = () => {
         <>
         <div className=' relative  w-[1440px] '>
        <Navbar/>
-       <div className=' absolute mt-[164px]  ml-[373px] border w-[1024px] h-[200px]'>
+       <div className='appointment absolute mt-[164px]  ml-[373px]  w-[1024px] h-[200px]'>
         <div className='absolute w-[796px] h-[32px] top-[32px] left-[39px]'>
         <p className='font-poppins font-[500] text-[24px] leading-[32px]'>
             Upcoming Appointments
