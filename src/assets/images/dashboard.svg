@@ -1,0 +1,12 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 19405">
+<g id="dashboard">
+<mask id="mask0_678_4845" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+<rect id="Bounding box" width="35.6374" height="35.6374" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_678_4845)">
+<path id="dashboard_2" d="M19.3021 13.3639V4.45459H31.1812V13.3639H19.3021ZM4.45312 19.3035V4.45459H16.3323V19.3035H4.45312ZM19.3021 31.1827V16.3337H31.1812V31.1827H19.3021ZM4.45312 31.1827V22.2733H16.3323V31.1827H4.45312ZM7.42291 16.3337H13.3625V7.42438H7.42291V16.3337ZM22.2718 28.2129H28.2114V19.3035H22.2718V28.2129ZM22.2718 10.3942H28.2114V7.42438H22.2718V10.3942ZM7.42291 28.2129H13.3625V25.2431H7.42291V28.2129Z" fill="#717171"/>
+</g>
+</g>
+</g>
+</svg>

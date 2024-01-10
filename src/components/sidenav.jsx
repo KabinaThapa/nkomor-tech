@@ -1,0 +1,89 @@
+import React from "react";
+import dashboardlogo from "../assets/images/dashboard.svg";
+import appointmentlogo from '../assets/images/appointment.svg'
+import insurance from '../assets/images/insurance-card.svg'
+import labservice from '../assets/images/labtest.svg'
+import notification from '../assets/images/notification.svg'
+import profile from '../assets/images/profile.svg'
+
+const sidenav = () => {
+  return (
+    <div className="border w-[310px] h-[856px] top-[120px] flex flex-col">
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={dashboardlogo}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Dashboard
+          </p>
+        </div>
+      </div>
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={appointmentlogo}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="absolute w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Appointment
+          </p>
+        </div>
+      </div>
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={insurance}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="absolute w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Insurance
+          </p>
+        </div>
+      </div>
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={labservice}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="absolute w-[135px] h-[32px] top-[17px] left-[83px]">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Lab Service
+          </p>
+        </div>
+      </div>
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={notification}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Notification
+          </p>
+        </div>
+      </div>
+
+      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+        <img
+          src={profile}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Profile
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default sidenav;
