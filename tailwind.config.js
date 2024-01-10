@@ -9,6 +9,8 @@ export default {
       backgroundColor:{
         'customgreen':'#1A9C9A',
         'green':'#00605F',
+        'darkgreen':'#004343',
+        
         
       },
       fontFamily:{
@@ -16,6 +18,9 @@ export default {
       },
       textColor:{
         'hexgray':'#717171',
+      },
+      borderColor:{
+        'green':'#004343',
       }
       
     },

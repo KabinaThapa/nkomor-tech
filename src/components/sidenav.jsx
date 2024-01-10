@@ -5,6 +5,7 @@ import insurance from '../assets/images/insurance-card.svg'
 import labservice from '../assets/images/labtest.svg'
 import notification from '../assets/images/notification.svg'
 import profile from '../assets/images/profile.svg'
+import help from '../assets/images/help.svg'
 
 const sidenav = () => {
   return (
@@ -21,7 +22,7 @@ const sidenav = () => {
           </p>
         </div>
       </div>
-      <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
+      <div className="linear relative flex justify-center items-center w-[310px] h-[65px] border-r-[5px] border-green bg-gradient-to-r from-white to-darkgreen">
         <img
           src={appointmentlogo}
           alt="dashboard logo"
@@ -82,7 +83,22 @@ const sidenav = () => {
           </p>
         </div>
       </div>
+      <div className="absolute mt-[763px]">
+      <div className="relative flex justify-center items-center w-[310px] h-[65px]  border">
+        <img
+          src={help}
+          alt="dashboard logo"
+          className="absolute w-[35.64px] h-[35.64px] top-[13px] left-[36px]"
+        />
+        <div className="w-[135px] h-[32px] top-[17px] left-[83px] ">
+          <p className="font-poppins font-[500] text-[24px] leading-[32px]">
+            Need Help?
+          </p>
+        </div>
+      </div>
+      </div>
     </div>
+    
   );
 };
 
