@@ -8,6 +8,10 @@ export default {
     extend: {
       backgroundColor:{
         'customgreen':'#1A9C9A',
+        'green':'#00605F'
+      },
+      fontFamily:{
+        'poppins':['Urbanist', 'sans-serif'],
       },
     },
   },

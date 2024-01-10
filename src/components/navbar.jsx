@@ -5,17 +5,19 @@ const navbar = () => {
   return (
     <div className='[1440px] border-2 bg-slate-300 h-[120px] '>
 <div className='relative w-full h-[88px] border mt-8 bg-customgreen flex'>
-    <div className='w-[169px] h-[50px] mt-[20px] ml-[38px] border '>
+    <div className='w-[169px] h-[50px] mt-[20px] ml-[38px]  '>
         <img src={brandlogo} alt='brandlogo' className='object-fit w-full h-full text-black '/>
     </div>
-    <div className='absolute w-[48px] h-[48px] mt-[20px] ml-[1152px] border rounded-full'>
-NP
+    <div className='absolute w-[48px] h-[48px] mt-[20px] ml-[1152px]  rounded-full bg-green flex items-center justify-center'>
+<p className='absolute text-[20px] leading-[24px] font-[400] font-poppins text-white '>
+    NP
+</p>
     </div>
-<div className='absolute w-[122px] h-[24px] mt-[33px] ml-[1213px] '>
-    <p className='text-[20px]'>Noah Parker</p>
+<div className='absolute w-[122px] h-[24px] mt-[33px] ml-[1213px]  '>
+    <p className='text-[20px] font-poppins font-[400] leading-[24px] text-white'>Noah Parker</p>
 </div>
-<div className='absolute w-[24px] h-[24px] top-[33px] ml-[1351px] border'>
-<IoIosArrowDown className='w-full h-full' />
+<div className='absolute w-[24px] h-[24px] top-[33px] ml-[1351px] flex justify-center items-center text-white'>
+<IoIosArrowDown className='object-fit w-full h-full ' />
 </div>
 
 </div>
