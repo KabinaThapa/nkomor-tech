@@ -3,7 +3,7 @@ import brandlogo from '../assets/images/brandlogo.png'
 import { IoIosArrowDown } from "react-icons/io";
 const navbar = () => {
   return (
-    <div className='[1440px] border-2  h-[120px] '>
+    <div className='absolute w-[1440px] border-2  h-[120px] '>
         <div className='w-full h-[32px] pl-[1279px] pt-[4px] pb-[4px] border'>
            
             <p className='font-poppins font-[500] text-[16px] leading-[24px]'>Contact Us</p>
