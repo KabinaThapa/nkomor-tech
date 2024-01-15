@@ -20,6 +20,8 @@ export default {
       },
       textColor:{
         'hexgray':'#717171',
+        'green':'#004343',
+        'lightgray':'#B3B3B3'
       },
       borderColor:{
         'green':'#004343',
