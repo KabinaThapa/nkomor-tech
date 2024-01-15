@@ -1,5 +1,5 @@
 import React from 'react'
-import { GoCircle } from "react-icons/go";
+import { useState } from 'react';
 import EllipseSVG from './ellipseSVG';
 import StrokeSVG from './strokeSVG';
 import stethoscope from '../assets/images/stethoscope.svg'
@@ -8,13 +8,29 @@ import fetus from '../assets/images/fetus.svg'
 import testtube from '../assets/images/testtube.svg'
 import tooth from '../assets/images/tooth.svg'
 import eyeglasses from '../assets/images/eyeglasses.svg'
+import CloseSVG from './closeSVG';
 
 
 const chooseSpeciality = () => {
+    const[close, setClose]=useState(false)
+    const handleClose=()=>{
+        setClose(!close)
+    }
   return (
+    <>
+    {close ? (''):(
     <div className=''>
     <div className='absolute top-[260px] left-[353px] w-[1023px] h-[598px] border bg-slate-300  z-50 font-poppins'>
-        <p className='text-center font-inter text-[35px] font-[600] leading-[70.008px]'>Choose Speciality</p>
+        <div onClick={handleClose} className='flex items-center pl-[21px] pt-[21px]'>
+            <CloseSVG />
+            <div className='border mx-auto'>
+            <p className='text-center font-inter text-[35px] font-[600] leading-[70.008px]'>
+            Choose Speciality
+            </p>
+            </div>
+       
+        </div>
+      
         <div className='flex justify-center items-center mx-auto gap-[6.029px] pt-[30.1px] pr-[7.54px] pb-[7.54px] pl-[7.54px] w-[820px] h-auto border'>
             <div className=' border flex flex-col items-center text-center text-green text-[10.551px] font-[400] leading-[15.072px]'>
                <EllipseSVG color='#004343' className='w-[18.087px] h-[18.087px]'/>
@@ -89,9 +105,12 @@ const chooseSpeciality = () => {
         <button className='flex items-center rounded-[8px] border-[1px] pt-[7px] pb-[7px] pl-[32px] pr-[32px] border-bordergreen text-customgreen'>Back</button>
         <button className='flex items-center rounded-[8px] border-[1px] pt-[7px] pb-[7px] pl-[32px] pr-[32px] border-bordergreen text-white bg-customgreen'>Confirm</button>
     </div>
+    
     </div>
    
     </div>
+    )}
+    </>
   )
 }
 
