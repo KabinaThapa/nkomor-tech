@@ -22,7 +22,8 @@ export default {
         'hexgray':'#717171',
         'green':'#004343',
         'lightgray':'#B3B3B3',
-        'primarygreen':'#007E7C'
+        'primarygreen':'#007E7C',
+        'customgreen':'#1A9C9A',
        
       },
       borderColor:{
