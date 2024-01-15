@@ -21,10 +21,13 @@ export default {
       textColor:{
         'hexgray':'#717171',
         'green':'#004343',
-        'lightgray':'#B3B3B3'
+        'lightgray':'#B3B3B3',
+        'primarygreen':'#007E7C'
+       
       },
       borderColor:{
         'green':'#004343',
+        'bordergreen':'#1A9C9A'
       },
       
       

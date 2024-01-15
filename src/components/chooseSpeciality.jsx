@@ -2,6 +2,13 @@ import React from 'react'
 import { GoCircle } from "react-icons/go";
 import EllipseSVG from './ellipseSVG';
 import StrokeSVG from './strokeSVG';
+import stethoscope from '../assets/images/stethoscope.svg'
+import elegance from '../assets/images/elegance.svg'
+import fetus from '../assets/images/fetus.svg'
+import testtube from '../assets/images/testtube.svg'
+import tooth from '../assets/images/tooth.svg'
+import eyeglasses from '../assets/images/eyeglasses.svg'
+
 
 const chooseSpeciality = () => {
   return (
@@ -31,6 +38,50 @@ const chooseSpeciality = () => {
             </div>
             
 
+        </div>
+        <div className='grid grid-cols-3 w-[820px] mx-auto border  gap-2 mt-[33px]'>
+            <div className='h-[120px] flex  items-center text-center font-inter text-[16px] font-[700] text-white justify-evenly bg-customgreen border-[1px] border-bordergreen rounded-[8px]'>
+           
+          
+           <img className='w-[52px] h-[52px]' src={stethoscope} alt='stethoscope' />
+             
+            <p >General Medicine & Practitioner</p>
+           
+
+
+            </div>
+ <div className='h-[120px] flex items-center justify-evenly text-center font-inter text-[16px] font-[700] text-primarygreen  border-[1px] border-bordergreen rounded-[8px]'>
+            <img className='w-[52px] h-[52px]' src={elegance} alt='elegance'/>
+            <p>Paediatrics-Dermatology</p>
+           
+
+
+            </div>
+ <div className='h-[120px] flex items-center justify-evenly text-center font-inter text-[16px] font-[700] text-primarygreen  border-[1px] border-bordergreen rounded-[8px]'>
+            <img className='w-[52px] h-[52px]' src={fetus} alt='fetus'/>
+            <p>Obs And Gynae</p>
+
+
+            </div>
+ <div className='h-[120px] flex items-center justify-evenly text-center font-inter text-[16px] font-[700] text-primarygreen  border-[1px] border-bordergreen rounded-[8px]'>
+             <img className='w-[52px] h-[52px]' src={tooth} alt='tooth'/>
+            <p>Dentist</p>
+
+
+            </div>
+            <div className='h-[120px] flex items-center justify-evenly text-center font-inter text-[16px] font-[700] text-primarygreen  border-[1px] border-bordergreen rounded-[8px]'>
+            <img className='w-[52px] h-[52px]' src={eyeglasses} alt='eyeglasses'/>
+            <p>Optician</p>
+
+
+            </div>
+            <div className='h-[120px] flex items-center justify-evenly text-center font-inter text-[16px] font-[700] text-primarygreen  border-[1px] border-bordergreen rounded-[8px]'>
+            <img className='w-[52px] h-[52px]' src={testtube} alt='testtube'/>
+            <p>COVID-19 Testing</p>
+
+
+            </div>
+ 
         </div>
     </div>
     </div>
