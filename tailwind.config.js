@@ -16,6 +16,7 @@ export default {
       },
       fontFamily:{
         'poppins':['Poppins', 'sans-serif'],
+        'inter':[ 'Inter', 'sans-serif']
       },
       textColor:{
         'hexgray':'#717171',

@@ -3,13 +3,13 @@ import brandlogo from '../assets/images/brandlogo.png'
 import { IoIosArrowDown } from "react-icons/io";
 const navbar = () => {
   return (
-    <div className='absolute w-[1440px] border-2  h-[120px] '>
-        <div className='w-full h-[32px] pl-[1279px] pt-[4px] pb-[4px] border'>
+    <div className='absolute w-full  h-[120px] '>
+   
            
-            <p className='font-poppins font-[500] text-[16px] leading-[24px]'>Contact Us</p>
+      <p className='font-poppins font-[500] text-[16px] leading-[24px]  pl-[1279px] pt-[4px] pb-[4px]'>Contact Us</p>
            
           
-        </div>
+        
 <div className='relative w-full h-[88px] border  bg-customgreen flex'>
     <div className='w-[169px] h-[50px] mt-[20px] ml-[38px]  '>
         <img src={brandlogo} alt='brandlogo' className='object-fit w-full h-full text-black '/>

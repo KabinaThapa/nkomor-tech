@@ -11,8 +11,9 @@ function App() {
 
   return (
     <>
-     <div className=' font-poppins'>
+     <div className='relative font-poppins z-0'>
      <HomepageA/>
+
      </div>
     </>
   )

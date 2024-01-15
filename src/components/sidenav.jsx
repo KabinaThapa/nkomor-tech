@@ -9,7 +9,7 @@ import help from '../assets/images/help.svg'
 
 const sidenav = () => {
   return (
-    <div className="sidenav border w-[310px] h-[856px] top-[120px] flex flex-col absolute">
+    <div className="sidenav z-0 border w-[310px] h-[856px] top-[120px] flex flex-col absolute">
       <div className="relative flex justify-center items-center w-[310px] h-[65px] border">
         <img
           src={dashboardlogo}
