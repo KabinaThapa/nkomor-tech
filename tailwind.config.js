@@ -11,6 +11,7 @@ export default {
         'green':'#00605F',
         'darkgreen':'#004343',
         'primarygreen':'#007E7C',
+        'line':' #77BEBD',
         
         
       },
@@ -28,8 +29,15 @@ export default {
       },
       borderColor:{
         'green':'#004343',
-        'bordergreen':'#1A9C9A'
+        'bordergreen':'#1A9C9A',
+        'bordergray':'#DBDBDB'
+       
+      
       },
+      stroke:{
+        'customgreen':'#1A9C9A'
+
+      }
       
       
     },
