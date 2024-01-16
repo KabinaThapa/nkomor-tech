@@ -12,7 +12,7 @@ const homepageA = () => {
   return (
     
         <>
-        <div className='z-10 relative  w-[1440px]'>
+        <div className='z-10 relative  w-full'>
        <Navbar/>
        <div className='appointment absolute mt-[164px]  ml-[373px]  w-[1024px] h-[200px]'>
         <div className='absolute w-[796px] h-[32px] top-[32px] left-[39px]'>
