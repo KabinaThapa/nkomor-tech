@@ -20,7 +20,7 @@ const chooseSpeciality = () => {
     <>
     {close ? (''):(
     <div className=''>
-    <div className='absolute top-[260px] left-[353px] w-[1023px] h-[598px] border bg-slate-300  z-50 font-poppins'>
+    <div className='mx-auto w-[1023px] h-[598px] border   z-50 font-poppins'>
         <div onClick={handleClose} className='flex items-center pl-[21px] pt-[21px]'>
             <CloseSVG />
             <div className='border mx-auto'>
