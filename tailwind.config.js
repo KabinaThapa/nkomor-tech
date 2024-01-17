@@ -12,7 +12,7 @@ export default {
         'darkgreen':'#004343',
         'primarygreen':'#007E7C',
         'line':' #77BEBD',
-        
+        'stroke':'#CACACA'
         
       },
       fontFamily:{
