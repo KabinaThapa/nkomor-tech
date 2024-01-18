@@ -4,6 +4,8 @@ import acacia from '../assets/images/acacia.svg'
 import alica from '../assets/images/alica.svg'
 import hollard from '../assets/images/hollard.svg'
 import hospitalimg from '../assets/images/hospitalimage.svg'
+import pin from '../assets/images/pin.svg'
+import schedule from '../assets/images/schedule.svg'
 
 
 const facilities = () => {
@@ -40,8 +42,9 @@ image:{hospitalimg}},
     <img className='w-[82.3px] h-[26.6px]' src={item.insurance.img4}/>
 </div>
 <div className='text-[16px] font-[500] leading-[24px]'>
-<p >{item.address}</p>
-<p>{item.openHours}</p>
+
+<p className='flex items-center' > <img src={pin}/>{item.address}</p>
+<p className='flex items-center'> <img src={schedule}/>{item.openHours}</p>
 
 </div>
 
