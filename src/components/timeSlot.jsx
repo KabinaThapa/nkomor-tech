@@ -34,8 +34,8 @@ console.log(morningSlot)
 const afternonSlot=timeSlot.filter((slot)=>slot.timeOfDay==='afternoon')
 console.log(afternonSlot)
   return (
-    <div className=''>
- <div className='mx-auto w-[1023px] h-[598px] border   z-50 font-poppins'>
+    <div className='w-[1129px] mx-auto border border-red-500 bg-bgopacity bg-opacity-[0.5]  '>
+ <div className='mx-auto w-[1023px] h-[598px] border font-poppins bg-white'>
         <div  className='flex items-center pl-[21px] pt-[21px]'>
             <CloseSVG />
             <div className='border mx-auto'>
