@@ -7,6 +7,7 @@ import Sidenav from './components/sidenav'
 import HomepageA from './pages/homepageA'
 import ChooseSpeciality from './components/chooseSpeciality'
 import TimeSlot from './components/timeSlot'
+import Facilities from './components/facilities'
 function App() {
  
 
@@ -16,6 +17,7 @@ function App() {
      <HomepageA/>
      <ChooseSpeciality/>
 <TimeSlot/>
+<Facilities/>
      </div>
     </>
   )
