@@ -4,6 +4,7 @@ import Footer from '../components/footer'
 import Sidenav from '../components/sidenav'
 import Button from '../components/button'
 import ChooseSpeciality from '../components/chooseSpeciality'
+import { Link } from 'react-router-dom'
 const homepageA = () => {
   const[open, setOpen]=useState(false)
   const openSpeciality=()=>{
@@ -27,8 +28,11 @@ const homepageA = () => {
         </p>
 
         </div>
+        <Link to='/Appointmentpage'>
         <Button onClick={openSpeciality} className=' absolute bg-primarygreen font-[500] text-[16px] leading-[20px] flex items-center justify-center w-[380px] h-[40px] top-[120px] left-[322px] rounded-[8px] text-white'>
             Schedule an appopintment</Button>
+        </Link>
+        
 
 </div>
 {open?
