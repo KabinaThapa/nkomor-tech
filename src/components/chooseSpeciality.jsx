@@ -19,8 +19,9 @@ const chooseSpeciality = () => {
   return (
     <>
     {close ? (''):(
-    <div className=''>
-    <div className='mx-auto w-[1023px] h-[598px] border   z-50 font-poppins'>
+        <div className='absolute inset-0'>
+    <div className=' border-[4px]  sticky  w-full   h-[100%] bg-black bg-opacity-30 border-red-300'>
+    <div className=' w-[1023px] h-[598px] mx-auto mt-24 border border-red-500  z-50 font-poppins bg-white'>
         <div onClick={handleClose} className='flex items-center pl-[21px] pt-[21px]'>
             <CloseSVG />
             <div className='border mx-auto'>
@@ -108,6 +109,7 @@ const chooseSpeciality = () => {
     
     </div>
    
+    </div>
     </div>
     )}
     </>

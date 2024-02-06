@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-     <div className='relative font-poppins z-0 w-full'>
+     <div className='relative font-poppins z-0 '>
      <HomepageA/>
      <ChooseSpeciality/>
 <TimeSlot/>

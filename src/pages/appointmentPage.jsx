@@ -9,8 +9,11 @@ const appointmentPage = () => {
     <Navbar/>
     <div className='flex'>
     <Sidenav/>
-     <Facilities/>
+   
+    <Facilities/>
     </div>
+    
+    
    
     </>
    

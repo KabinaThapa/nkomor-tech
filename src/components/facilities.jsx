@@ -1,4 +1,5 @@
 import React from 'react'
+
 import bima from '../assets/images/bima.svg'
 import acacia from '../assets/images/acacia.svg'
 import alica from '../assets/images/alica.svg'
@@ -9,6 +10,8 @@ import schedule from '../assets/images/schedule.svg'
 import vector from '../assets/images/Vector.png'
 import Button from './button'
 import Searchbar from './searchbar'
+import { useState } from 'react'
+import ChooseSpeciality from './chooseSpeciality'
 
 const facilities = () => {
     const facilities=[
@@ -43,18 +46,22 @@ image:{hospitalimg}},
 openHours:'MON-SUN 10:00AM-11.59PM',
 image:{hospitalimg}},
     ]
+    const[open, setOpen]=useState(false)
+    const openSpeciality=()=>{
+    setOpen(!open)
+    }
 
   return (
    <>
  
 
-   <div className='flex flex-col justify-center  w-full border p-4'>
+   <div className='relative flex flex-col justify-center  border-red-800 w-full border p-4'>
    <Searchbar/>
     <p className='me-auto ml-10 font-poppins font-[600] text-[20px] leading-[40px]'>50 facilities in Ghana</p>
 {
     facilities.map((item)=>(
        
-        <div className='facilities  w-[1060px] h-[329px] p-8 border border-red-500 flex flex-col mx-auto  items-center gap-6 mb-8  rounded-[20px]'>
+        <div className='facilities  w-full p-8 border border-red-500 flex flex-col mx-auto  items-center gap-6 mb-8  rounded-[20px]'>
              <div className='flex border gap-6 justify-between items-center w-full'>
             <div className='flex  border w-[185px] h-[186px]  '>
                 <img className='w-full h-full rounded-[8px]  ' src={hospitalimg}/>
@@ -84,15 +91,22 @@ image:{hospitalimg}},
 </div>
 
 </div>
-            <Button className='w-[152px] h-[48px] rounded-[10px] bg-customgreen ms-auto text-white font-inter font-[500] text-[16px] leading-[32px]'>
+            <Button onClick={openSpeciality} className='w-[152px] h-[48px] rounded-[10px] bg-customgreen ms-auto text-white font-inter font-[500] text-[16px] leading-[32px]'>
     Book a visit
 </Button>
+
        
         </div>
+        
     ))
     
 }
 
+{open?
+
+(
+  <ChooseSpeciality/>
+):('')}
 
 </div>
    </>
