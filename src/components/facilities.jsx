@@ -8,7 +8,7 @@ import pin from '../assets/images/pin.svg'
 import schedule from '../assets/images/schedule.svg'
 import vector from '../assets/images/Vector.png'
 import Button from './button'
-
+import Searchbar from './searchbar'
 
 const facilities = () => {
     const facilities=[
@@ -46,12 +46,15 @@ image:{hospitalimg}},
 
   return (
    <>
-   <div className='flex flex-col justify-center  w-full border p-8'>
-    <p className='me-auto ml-6 font-poppins font-[600] text-[20px] leading-[40px]'>50 facilities in Ghana</p>
+ 
+
+   <div className='flex flex-col justify-center  w-full border p-4'>
+   <Searchbar/>
+    <p className='me-auto ml-10 font-poppins font-[600] text-[20px] leading-[40px]'>50 facilities in Ghana</p>
 {
     facilities.map((item)=>(
        
-        <div className='facilities  w-[1022px] h-[329px] p-8 border border-red-500 flex flex-col mx-auto  items-center gap-6 mb-8  rounded-[20px]'>
+        <div className='facilities  w-[1060px] h-[329px] p-8 border border-red-500 flex flex-col mx-auto  items-center gap-6 mb-8  rounded-[20px]'>
              <div className='flex border gap-6 justify-between items-center w-full'>
             <div className='flex  border w-[185px] h-[186px]  '>
                 <img className='w-full h-full rounded-[8px]  ' src={hospitalimg}/>

@@ -31,7 +31,9 @@ export default {
       borderColor:{
         'green':'#004343',
         'bordergreen':'#1A9C9A',
-        'bordergray':'#DBDBDB'
+        'bordergray':'#DBDBDB',
+        'bordersearch':'#9F9F9F',
+        'borderoutline':'#CFCFCF',
        
       
       },
